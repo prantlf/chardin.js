@@ -66,16 +66,71 @@
     top: 50%; }
   .chardinjs-tooltip.chardinjs-bottom:before, .chardinjs-tooltip.chardinjs-top:after {
     width: 1px;
-    height: 30px;
     left: 50%; }
-  .chardinjs-tooltip.chardinjs-bottom:before {
-    top: -30px; }
-  .chardinjs-tooltip.chardinjs-top:after {
-    bottom: -30px; }
   .chardinjs-tooltip.chardinjs-right:before {
     left: -50px; }
   .chardinjs-tooltip.chardinjs-left:after {
     right: -50px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-100:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-100:after {
+    height: 30px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-100:before {
+    top: -30px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-100:after {
+    bottom: -30px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-200:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-200:after {
+    height: 60px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-200:before {
+    top: -60px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-200:after {
+    bottom: -60px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-300:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-300:after {
+    height: 90px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-300:before {
+    top: -90px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-300:after {
+    bottom: -90px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-400:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-400:after {
+    height: 120px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-400:before {
+    top: -120px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-400:after {
+    bottom: -120px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-500:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-500:after {
+    height: 150px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-500:before {
+    top: -150px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-500:after {
+    bottom: -150px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-600:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-600:after {
+    height: 180px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-600:before {
+    top: -180px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-600:after {
+    bottom: -180px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-700:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-700:after {
+    height: 210px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-700:before {
+    top: -210px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-700:after {
+    bottom: -210px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-800:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-800:after {
+    height: 240px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-800:before {
+    top: -240px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-800:after {
+    bottom: -240px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-900:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-900:after {
+    height: 270px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-900:before {
+    top: -270px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-900:after {
+    bottom: -270px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-1000:before, .chardinjs-tooltip.chardinjs-top.chardinjs-distance-1000:after {
+    height: 300px; }
+  .chardinjs-tooltip.chardinjs-bottom.chardinjs-distance-1000:before {
+    top: -300px; }
+  .chardinjs-tooltip.chardinjs-top.chardinjs-distance-1000:after {
+    bottom: -300px; }
 
 .chardinjs-show-element {
   z-index: 9999995;
@@ -87,3 +142,5 @@
 .chardinjs-no-fixed {
   z-index: auto !important;
   position: absolute !important; }
+
+/*# sourceMappingURL=chardinjs.css.map */
